@@ -1,9 +1,9 @@
 defmodule EntradaDatos do
   def main do
     "Ingrese el nombre del empleado: "
-    |> Util.ingresar(:texto)
+    |> UtilJava.ingresar(:texto)
     |> generar_mensaje()
-    |> Util.mostrar_mensaje()
+    |> UtilJava.mostrar_mensaje()
   end
 
   defp generar_mensaje (nombre) do
